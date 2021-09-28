@@ -11,7 +11,7 @@ function interruptor(filename, status){
 }
 
 function carregarpagina(){
-     document.querySelector('#concertada').disabled = true;
+     document.querySelector('#consertada').disabled = true;
      document.querySelector('#desligado').disabled = true;
 
 
@@ -21,7 +21,7 @@ function carregarpagina(){
 //Função para a lâmpada ligar
 function ligada(){ 
 
-     document.querySelector('#concertada').disabled = true;
+     document.querySelector('#consertada').disabled = true;
      document.querySelector('#desligado').disabled = false;
      document.querySelector('#ligado').disabled = true;
 
@@ -33,7 +33,7 @@ function quebrar(){
 
      document.querySelector('#ligado').disabled = true;
      document.querySelector('#desligado').disabled = true;
-     document.querySelector('#concertada').disabled = false;
+     document.querySelector('#consertada').disabled = false;
      document.querySelector('#quebrar').disabled = true;
 
 
@@ -41,11 +41,11 @@ function quebrar(){
 
 
 //função para concertar a lâmpada
-function concertar(){
+function consertar(){
 
      document.querySelector('#ligado').disabled = false;
      document.querySelector('#desligado').disabled = false;
-     document.querySelector('#concertada').disabled = true;
+     document.querySelector('#consertada').disabled = true;
      document.querySelector('#quebrar').disabled = false;
 
 }
@@ -54,7 +54,7 @@ function desligar(){
 
      document.querySelector('#ligado').disabled = false;
      document.querySelector('#desligado').disabled = true;
-     document.querySelector('#concertada').disabled = true;
+     document.querySelector('#consertada').disabled = true;
 
 
 }
