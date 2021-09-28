@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css"/>
+    <title>Document</title>
+</head>
+<body>
+    
+    
+
+    <div class="lampada">  
+        
+        <h1>Interruptor</h1>
+        <img onclick="interruptor('quebrada.png', 'quebrada')" src="imagens/apagada.png" data-status="apagado" id="imagem" /><br>
+        <button onclick="interruptor('acesa.png', 'ligada')">Ligar</button>
+        <button onclick="interruptor('apagada.png', 'desligada')">Desligar</button>
+        <button id="concertada" onclick="interruptor('apagada.png', 'concertada')">Concertar</button>
+        <button onclick="statusLampada()">Status</button>
+
+    </div>    
+    <footer>
+            
+       
+
+    </footer>
+
+
+<script src="script.js" ></script>    
+</body>
+</html>

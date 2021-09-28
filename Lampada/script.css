@@ -1,0 +1,51 @@
+html{
+    background-color: beige;
+
+}
+
+.conteiner{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px 10px;
+
+}
+
+.azul{
+
+background-color: blue;
+color: honeydew;
+
+
+}
+
+.vermelho{
+color: green;
+background-color: red;
+
+}
+
+.verde{
+color: white;
+background-color: green;
+
+}
+
+.preto{
+    background-color: black;
+    color:white;
+
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+.imagem{
+    height: 300px;
+}
+
+.lampada{
+    text-align: center;
+}
