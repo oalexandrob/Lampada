@@ -40,11 +40,11 @@ function quebrar(){
 }
 
 
-//função para concertar a lâmpada
+//função para consertar a lâmpada
 function consertar(){
 
      document.querySelector('#ligado').disabled = false;
-     document.querySelector('#desligado').disabled = false;
+     document.querySelector('#desligado').disabled = true;
      document.querySelector('#consertada').disabled = true;
      document.querySelector('#quebrar').disabled = false;
 
