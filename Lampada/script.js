@@ -10,10 +10,20 @@ function interruptor(filename, status){
 
 }
 
+function carregarpagina(){
+     document.querySelector('#concertada').disabled = true;
+     document.querySelector('#desligado').disabled = true;
+
+
+}
+
+
 //Função para a lâmpada ligar
 function ligada(){ 
 
      document.querySelector('#concertada').disabled = true;
+     document.querySelector('#desligado').disabled = false;
+     document.querySelector('#ligado').disabled = true;
 
 
 }
@@ -34,10 +44,18 @@ function concertar(){
 
      document.querySelector('#ligado').disabled = false;
      document.querySelector('#desligado').disabled = false;
-     document.querySelector('#concertada').disabled = false;
+     document.querySelector('#concertada').disabled = true;
 
 }
 
+function desligar(){
+
+     document.querySelector('#ligado').disabled = false;
+     document.querySelector('#desligado').disabled = true;
+     document.querySelector('#concertada').disabled = true;
+
+
+}
 
 
 
